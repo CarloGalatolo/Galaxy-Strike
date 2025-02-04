@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
 
 	void OnParticleCollision (GameObject other)
 	{
+		Debug.Log("Amogus");
 		Destroy(this.gameObject);
 	}
 }
